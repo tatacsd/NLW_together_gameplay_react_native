@@ -3,6 +3,13 @@ export const theme = {
         brand: {
             primary: '#E61C44',
             secondary: '#495BCC',
+            secondary100: '#0A1033',
+            secondary90: '#0D133D',
+            secondary80: '#0E1647',
+            secondary70: '#1B2565',
+            secondary50: '#243189',
+            secondary40: '#1D2766',
+            secondary30: '#495BCC',
             background: '#0D133D',            
         },
         text: {
@@ -18,6 +25,15 @@ export const theme = {
             busy: '#D07622',
             offline: '#E61C44',
             line: '#991f36',
+            overlay: 'rgba(0, 0, 0, 0.7)',
+            highlight: '#ABB1CC',
         },
+    },
+
+    fonts: {
+        title700: 'Rajdhani_700Bold',
+        title500: 'Rajdhani_500Medium',
+        text400: 'Inter_400Regular',
+        text500: 'Inter_500Medium',
     },
 }
